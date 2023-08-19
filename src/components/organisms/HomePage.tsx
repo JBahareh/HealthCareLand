@@ -7,7 +7,7 @@ export const HomePage = () => {
       <Box sx={{ height: 150 }} />
       <Stack direction="row" justifyContent="space-between" width="100%">
         <Stack spacing={5} width="35%" sx={{ justifyContent: "center", pr: 5 }}>
-          <Box sx={{ position: "absolute", left: 0, top: 0 }}>
+          <Box sx={{ position: "absolute", left: 0, top: 150 }}>
             <DotShape numRows={5} numCols={3} />
           </Box>
           <Typography
@@ -36,15 +36,16 @@ export const HomePage = () => {
           <Button
             variant="contained"
             sx={{
-              fontSize: 18,
+              fontSize: 20,
               fontFamily: "Mulish",
               fontWeight: 700,
               background: "#458FF6",
-              borderRadius: 55,
-              width: 200,
-              p: "15px 35px",
+              borderRadius: "55px",
+              p: "15px 50px",
               textTransform: "none",
               boxShadow: "none",
+              my: 4,
+              width: "fit-content",
             }}
           >
             Consult today
