@@ -1,4 +1,19 @@
 @font-face {
   font-family: "Mulish", sans-serif;
-  src: url("Mulish-VariableFont_wght.ttf");
+  src: url("Mulish-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Mulish", sans-serif;
+  src: url("Mulish-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Mulish", sans-serif;
+  src: url("Mulish-Light.ttf");
+}
+
+@font-face {
+  font-family: "Mulish", sans-serif;
+  src: url("Mulish-Regular.ttf");
 }
