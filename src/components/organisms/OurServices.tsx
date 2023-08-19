@@ -97,7 +97,7 @@ export const OurServices = () => {
             direction="row"
             justifyContent="space-between"
             width="100%"
-            sx={{ position: "relative" }}
+            sx={{ position: "relative", overflow: "hidden" }}
           >
             <Box>
               <img
