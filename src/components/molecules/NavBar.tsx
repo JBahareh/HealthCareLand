@@ -8,7 +8,7 @@ export const NavBar = () => {
       sx={{
         background: "#FFFFFF",
         boxShadow: "none",
-        height: 200,
+        height: 150,
         justifyContent: "center",
       }}
     >
@@ -26,7 +26,12 @@ export const NavBar = () => {
           >
             <Logo />
             <Typography
-              sx={{ color: "#233348", fontSize: 24, fontWeight: 700 }}
+              sx={{
+                color: "#233348",
+                fontSize: 24,
+                fontWeight: 700,
+                fontFamily: "Mulish",
+              }}
             >
               Trafalgar
             </Typography>
@@ -37,19 +42,29 @@ export const NavBar = () => {
             sx={{ width: 545 }}
             justifyContent="space-between"
           >
-            <Typography sx={{ color: "#1F1534", fontSize: 18 }}>
+            <Typography
+              sx={{ color: "#1F1534", fontSize: 18, fontFamily: "Mulish" }}
+            >
               Home
             </Typography>
-            <Typography sx={{ color: "#7D7987", fontSize: 18 }}>
+            <Typography
+              sx={{ color: "#7D7987", fontSize: 18, fontFamily: "Mulish" }}
+            >
               Find a doctor
             </Typography>
-            <Typography sx={{ color: "#7D7987", fontSize: 18 }}>
+            <Typography
+              sx={{ color: "#7D7987", fontSize: 18, fontFamily: "Mulish" }}
+            >
               Apps
             </Typography>
-            <Typography sx={{ color: "#7D7987", fontSize: 18 }}>
+            <Typography
+              sx={{ color: "#7D7987", fontSize: 18, fontFamily: "Mulish" }}
+            >
               Testimonials
             </Typography>
-            <Typography sx={{ color: "#7D7987", fontSize: 18 }}>
+            <Typography
+              sx={{ color: "#7D7987", fontSize: 18, fontFamily: "Mulish" }}
+            >
               About us
             </Typography>
           </Stack>
