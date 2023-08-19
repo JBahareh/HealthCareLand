@@ -3,6 +3,7 @@ import { NavBar } from "../components/molecules/NavBar";
 import { HomePage } from "../components/organisms/HomePage";
 import { OurServices } from "../components/organisms/OurServices";
 import { OurPurpose } from "../components/organisms/OurPurpose";
+import { DownloadApp } from "../components/organisms/DownloadApp";
 
 export const LandingPage = () => {
   return (
@@ -13,7 +14,9 @@ export const LandingPage = () => {
       <OurServices />
       <Box sx={{ height: 150 }} />
       <OurPurpose />
-      <Box sx={{ height: 150 }} />
+      <Box sx={{ height: 250 }} />
+      <DownloadApp />
+      <Box sx={{ height: 300 }} />
     </>
   );
 };
