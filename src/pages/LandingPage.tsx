@@ -19,6 +19,7 @@ export const LandingPage = () => {
       <DownloadApp />
       <Box sx={{ height: 300 }} />
       <ReviewSection />
+      <Box sx={{ height: 300 }} />
     </>
   );
 };
