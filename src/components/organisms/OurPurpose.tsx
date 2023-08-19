@@ -15,7 +15,7 @@ export const OurPurpose = () => {
         direction="row"
         justifyContent="space-between"
         width="100%"
-        sx={{ position: "relative" }}
+        sx={{ position: "relative", overflow: "hidden" }}
       >
         <Box width="50%">
           <img
