@@ -34,7 +34,6 @@ export const DotShape: FC<{ numRows: number; numCols: number }> = ({
 
   return (
     <Box sx={{ px: 2 }}>
-      <Box sx={{ height: 200 }} />
       <Grid container gap={2}>
         {generateBoxes()}
       </Grid>
